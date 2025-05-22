@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch http server",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "runtimeExecutable": "http-server"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\test1.js",
+            "runtimeExecutable": "node",
+            "runtimeExecutable1": "C:\\Program Files\\nodejs\\node.exe",
+            "runtimeExecutable2": "C:\\Users\\o.karelin\\node.js\\20.10.0\\node.exe"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Current File",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${file}",
+            "runtimeExecutable": "node",
+            "runtimeExecutable1": "C:\\Program Files\\nodejs\\node.exe",
+            "runtimeExecutable2": "C:\\Users\\o.karelin\\node.js\\20.10.0\\node.exe",
+            "console": "integratedTerminal"
+        }
+    ]
+}
