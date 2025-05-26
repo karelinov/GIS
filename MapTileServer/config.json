@@ -26,7 +26,7 @@
         "mbtiles": "./DATA/tiles_rf_europe.sqlite"
       },
       "openmaptiles1": {
-        "pmtiles": "./DATA/tiles_rf_europe.sqlite"
+        "mbtiles": "./DATA/mh.mbtiles"
       }
 
     }
