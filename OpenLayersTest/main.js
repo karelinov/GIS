@@ -31,6 +31,12 @@ var layer = new VectorTileLayer({
 applyStyle(layer, 'http://localhost:8081/styles/maptiler-basic/style.json');
 //applyStyle(layer, 'mapbox://styles/mapbox/bright-v9');
 
+var layer1 = new TileLayer({
+      source: new OSM({
+        url: 'http://localhost:8081/styles/test-style/512/{z}/{x}/{y}.png',
+      })
+    });
+
 
 const map = new Map({
   target: 'map',
@@ -40,7 +46,7 @@ const map = new Map({
     zoom: 7,
   }),
   layers: [
-    layer,
+    layer1,
   ],
 });
 //var layer = map.getLayers().array_[0];
