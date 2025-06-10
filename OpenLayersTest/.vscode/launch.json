@@ -11,7 +11,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "runtimeExecutable": "http-server"
+            "runtimeExecutable": "http-server",
+            "args": ["-p 8082"]
         },
         {
             "type": "node",
