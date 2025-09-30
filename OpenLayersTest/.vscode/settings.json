@@ -1,0 +1,4 @@
+{
+    "eslint.ignoreUntitled": false,
+    "eslint.onIgnoredFiles": "off"
+}

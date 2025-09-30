@@ -1,0 +1,6 @@
+{
+    "tileserver_host" : "http://localhost:8081",
+    "tileserver_png_url" : "/styles/test-style/512/{z}/{x}/{y}.png",
+    "tileserver_pbf_url" : "/data/openmaptiles/{z}/{x}/{y}.pbf",
+    "startLonLat" : [37.689134,55.951649]
+}
