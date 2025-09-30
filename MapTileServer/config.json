@@ -2,9 +2,10 @@
     "options": {
       "paths": {
         "fonts": "fonts",
-        "styles": "styles"
+        "styles": "styles",
+        "files": "./"
       }
-    },
+    },  
     "styles": {
       "test-style": {
         "style": "osm-bright/style.json",
@@ -28,7 +29,6 @@
       "mytischi": {
         "mbtiles": "./DATA/mh.mbtiles"
       }
-
     }
   }
   
